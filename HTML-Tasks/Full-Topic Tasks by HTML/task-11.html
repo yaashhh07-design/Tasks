@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table {
+        border: 2px solid #000;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    th,
+    td {
+        border: 2px solid #000;
+    }
+
+    th {
+        background-color: rgb(183, 136, 227);
+        text-align: center;
+    }
+
+    textarea {
+        height: 80px;
+        width: 90%;
+    }
+</style>
+
+<body>
+    <form action="./Image/Hot Air Balloon.jpg">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Value</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Sex</td>
+                <td>
+                    <input type="radio">Male <br>
+                    <input type="radio">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Eye Color</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">--Select--</option>
+                        <option value="">Black</option>
+                        <option value="">White</option>
+                        <option value="">Others</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Check All That Apply</td>
+                <td>
+                    <input type="checkbox">Over 6-Feet Tall<br>
+                    <input type="checkbox">Over 200-pounds
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    Describe Your Athletic Ability :
+                    <textarea name="" id=""></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5"><button type="submit" style="margin-left: 100px;">Enter My Information</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

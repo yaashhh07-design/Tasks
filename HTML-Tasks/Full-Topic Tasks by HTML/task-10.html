@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+      background-color: rgb(128, 184, 165);
+      padding: 30px;
+      width: 500px;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    h1{
+        text-align: center;
+    }
+    p{
+         display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    label{
+        width: 150px;
+        text-align: left;
+    }
+    input,textarea{
+        flex: 1;
+        padding: 5px;
+    }
+    textarea{
+        height: 80px;
+    }
+    button{
+        text-align: center;
+    }
+</style>
+<body>
+    <form action="">
+        <h1><u>Register Form</u></h1>
+        <p>
+            <label for="">First Name</label>
+            <input type="text">
+        </p>
+        <p>
+            <label for="">Last Name</label>
+            <input type="text">
+        </p>
+        <p>
+            <label for="">Nick Name</label>
+            <input type="text">
+        </p>
+        <p>
+            <label for="">E-mail</label>
+            <input type="email">
+        </p>
+        <p>
+            <label for="">Password</label>
+            <input type="password">
+        </p>
+        <p>
+            <label for="">Date Of Brith</label>
+            <input type="date">
+        </p>
+        <p>
+            <label for="">Gender</label>
+            <input type="radio" name="@">Male
+            <input type="radio" name="@">Female
+            <input type="radio" name="@">Others
+        </p>
+        <p>
+            <label for="">Mobile</label>
+            <input type="number">
+        </p>
+        <p>
+            <label for="">Address</label>
+            <textarea name="" id=""></textarea>
+        </p>
+        <p>
+            <button type="submit"><b>Submit</b></button>
+            <button type="reset" style="margin-left: 50px;"><b>Reset</b></button>
+        </p>
+    </form>
+</body>
+</html>
